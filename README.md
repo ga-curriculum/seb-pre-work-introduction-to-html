@@ -219,13 +219,9 @@ Let’s examine each of these lines more closely to find out what they do.
   <summary>
     <pre>
       <code>
-        ```html
         <!DOCTYPE html>
-        ```
       </code>
     </pre>
-
-   
   </summary>
   This lets your web browser know that the following document will be written in HTML. 
 
