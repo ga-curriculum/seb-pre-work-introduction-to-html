@@ -193,9 +193,9 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 
 <h1 class="slide-header">The HTML Boilerplate</h1>
 
-<p markdown="0">
+<p markdown="1">
   Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
-  <div markdown="0">
+  
     <!DOCTYPE html>
     <html>
       <head>
@@ -206,7 +206,6 @@ Let’s start with the basics — a template that makes it easy to get up and ru
     </body>
 
     </html>
-  </div>
 
 
 Let’s examine each of these lines more closely to find out what they do.
