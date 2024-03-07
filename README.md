@@ -194,12 +194,12 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 <h1 class="slide-header">The HTML Boilerplate</h1>
 
 <p>
-  Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
+Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
 </p>
 
 ```html
       <!DOCTYPE html>
-      <html lang="en">
+      <html>
         <head>
         <title> </title>
         </head>
@@ -217,21 +217,22 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details markdown="0">
   <summary>
-    doctype html
+   `<!DOCTYPE html>`
   </summary>
   This lets your web browser know that the following document will be written in HTML. 
-  {% raw %}
+
+  ```html
   **<!DOCTYPE html>**
   <html>
     <head>
-    <title> </title>
+     <title> </title>
     </head>
-
+  
   <body>
   </body>
-
+  
   </html>
-  {% endraw %}
+  ```
 </details>
 
 <details>
