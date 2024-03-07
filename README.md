@@ -1,3 +1,6 @@
+```html
+<p>hi</p>
+```
 <textarea id="source">
 
 <h1 class="slide-header">Introduction to HTML</h1>
