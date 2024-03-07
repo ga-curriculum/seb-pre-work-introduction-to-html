@@ -237,8 +237,22 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details>
   <summary>
-
+    `<html>`
   </summary>
+  The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
+
+```html
+<!DOCTYPE html>
+**<html>**
+  <head>
+   <title> </title>
+  </head>
+
+<body>
+</body>
+
+**</html>**
+```
 </details>
 
 ---
