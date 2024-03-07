@@ -197,7 +197,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
   Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
 </p>
 <pre>
-  <code>
+  <code language="html">
       <!DOCTYPE html>
       <html>
         <head>
