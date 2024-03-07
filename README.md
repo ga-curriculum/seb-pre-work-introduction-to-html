@@ -222,8 +222,7 @@ Let’s examine each of these lines more closely to find out what they do.
   </summary>
   This lets your web browser know that the following document will be written in HTML. 
 
-  {::nomarkdown}
-  **<!DOCTYPE html>**
+  <!-- **<!DOCTYPE html>**
   <html>
     <head>
     <title> </title>
@@ -232,8 +231,7 @@ Let’s examine each of these lines more closely to find out what they do.
   <body>
   </body>
 
-  </html>
-  {:/}
+  </html> -->
 </details>
 
 <details>
