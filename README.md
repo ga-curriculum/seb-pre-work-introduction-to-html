@@ -195,6 +195,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 
 <p>
   Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
+</p>
 ```html
       <!DOCTYPE html>
       <html>
@@ -207,6 +208,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
     
       </html>
 ```
+<p>
 Let’s examine each of these lines more closely to find out what they do.
 </p>
 
