@@ -219,7 +219,7 @@ Let’s examine each of these lines more closely to find out what they do.
   <summary>
     <pre>
       <code>
-        <!DOCTYPE html>
+
       </code>
     </pre>
   </summary>
