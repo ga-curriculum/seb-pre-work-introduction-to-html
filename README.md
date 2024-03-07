@@ -198,14 +198,14 @@ Here’s an example of an HTML boilerplate. It should be inserted at the beginni
 </p>
 
 ```html
-      <!DOCTYPE html>
-      <html>
-        <head>
-        <title> </title>
-        </head>
-        <body>
-        </body>
-      </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+  </head>
+  <body>
+  </body>
+</html>
 ```
 <p>
 Let’s examine each of these lines more closely to find out what they do.
@@ -217,9 +217,10 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details markdown=1><summary markdown="span">HTML</summary>
 
-  ```html
+```html
   <html></html>
-  ```
+```
+
 </details>
 
 ---
