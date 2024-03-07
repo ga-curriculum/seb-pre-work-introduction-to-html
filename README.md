@@ -215,49 +215,7 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <h1 class="slide-header">Breaking Down the Boilerplate</h1>
 
-<details>
-  <summary>
-    <pre>
-      <code>
 
-      </code>
-    </pre>
-  </summary>
-  This lets your web browser know that the following document will be written in HTML. 
-
-  ```html
-  **<!DOCTYPE html>**
-  <html>
-    <head>
-     <title> </title>
-    </head>
-  
-  <body>
-  </body>
-  
-  </html>
-  ```
-</details>
-
-<details>
-  <summary>
-    `<html>`
-  </summary>
-  The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
-
-```html
-<!DOCTYPE html>
-**<html>**
-  <head>
-   <title> </title>
-  </head>
-
-<body>
-</body>
-
-**</html>**
-```
-</details>
 
 ---
 
