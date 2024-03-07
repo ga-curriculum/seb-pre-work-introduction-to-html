@@ -179,7 +179,7 @@ HTML Boilerplate
 
 <h1 class="slide-header">First Things First</h1>
 
-<p style="white-space: pre-wrap;">
+<p>
 Zelda loves your idea for the band name so much that she’s handing over the reins of the site. She wants you to give it a total overhaul.
 
 Are you ready for this?
@@ -196,7 +196,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 <p>
   Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
 
-```html
+{::nomarkdown}
     <!DOCTYPE html>
     <html>
       <head>
@@ -207,7 +207,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
     </body>
 
     </html>
-```
+{:/}
 
 Let’s examine each of these lines more closely to find out what they do.
 </p>
@@ -218,7 +218,7 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details>
   <summary>
-    `<DOCTYPE html>`
+    doctype html
   </summary>
   This lets your web browser know that the following document will be written in HTML. 
 
@@ -239,7 +239,6 @@ Let’s examine each of these lines more closely to find out what they do.
 <details>
   <summary>
 
-    `<html>`
   </summary>
 </details>
 
