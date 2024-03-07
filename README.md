@@ -215,14 +215,10 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <h1 class="slide-header">Breaking down the boilerplate</h1>
 
-<details markdown=1><summary markdown="span">HTML</summary>
-<div markdown=1>
+<h3>HTML</h3>
 ```html
 <html></html>
 ```
-</div>
-
-</details>
 
 ---
 
