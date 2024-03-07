@@ -214,9 +214,22 @@ Let’s examine each of these lines more closely to find out what they do.
 ---
 
 <h1 class="slide-header">Breaking down the boilerplate</h1>
+<br>
+<h5>`<html>`</h5>
 
-<h2>`<html>`</h2>
-<p>The html tag does stuff</p>
+The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
+
+```html
+<!DOCTYPE html>
+**<html>**
+  <head>
+   <title> </title>
+  </head>
+
+<body>
+</body>
+
+**</html>**
 ```
 
 ---
