@@ -219,6 +219,7 @@ Let’s examine each of these lines more closely to find out what they do.
 
 ```html
   <html></html>
+  <p>hi</p>
 ```
 
 </details>
