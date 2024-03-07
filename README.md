@@ -213,7 +213,7 @@ Let’s examine each of these lines more closely to find out what they do.
 
 ---
 
-<h1 class="slide-header" markdown=1>\<html\></h1>
+<h1 class="slide-header">`<html>`</h1>
 
 The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
 
