@@ -199,7 +199,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 
 ```html
       <!DOCTYPE html>
-      <html>
+      <html lang="en">
         <head>
         <title> </title>
         </head>
