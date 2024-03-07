@@ -215,7 +215,7 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <h1 class="slide-header">Breaking Down the Boilerplate</h1>
 
-<details markdown="0">
+<details>
   <summary>
     <pre>
       <code>
