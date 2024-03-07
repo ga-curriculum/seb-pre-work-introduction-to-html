@@ -198,18 +198,16 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 </p>
 <pre>
   <code>
-    ```html
-          <!DOCTYPE html>
-          <html>
-            <head>
-            <title> </title>
-            </head>
-        
-          <body>
-          </body>
-        
-          </html>
-    ```
+      <!DOCTYPE html>
+      <html>
+        <head>
+        <title> </title>
+        </head>
+    
+      <body>
+      </body>
+    
+      </html>
   </code>
 </pre>
 <p>
