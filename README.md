@@ -215,7 +215,14 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <h1 class="slide-header">Breaking down the boilerplate</h1>
 
-<h2>```<html></html>```</h2>
+<details>
+  <summary>
+    HTML
+  </summary>
+  ```html
+  <html>
+  ```
+</details>
 
 ---
 
