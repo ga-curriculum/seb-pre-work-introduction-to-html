@@ -215,9 +215,8 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <h1 class="slide-header">Breaking down the boilerplate</h1>
 
-<h3>HTML</h3>
-```html
-<html></html>
+<h2>\<html\></h2>
+<p>The html tag does stuff</p>
 ```
 
 ---
