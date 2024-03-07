@@ -217,9 +217,12 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details markdown="0">
   <summary>
-    <code>
-      `<!DOCTYPE html>`
-    </code>
+    <pre>
+      <code>
+        `<!DOCTYPE html>`
+      </code>
+    </pre>
+
    
   </summary>
   This lets your web browser know that the following document will be written in HTML. 
