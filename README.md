@@ -139,7 +139,23 @@ HTML Boilerplate
   <summary>Transcript</summary>
   
   <p class="transcript-text">
-    Lorem ipsum etc etc
+    The early history of the World Wide Web is a bit cloudy, but it goes something like this: 
+
+    The year is 1990. The place is a particle physics facility in a suburb of Geneva, Switzerland.
+    
+    A physicist, Tim Berners-Lee, is feeling disgruntled. He’s tired of logging on to so many different computers to get the information he needs.
+    
+    There has to be a better way! 
+    
+    “What if I came up with a computer language that would allow people to alter text so that it could be sent over a network? Then any computer connected to that network could interpret the text and make it readable for the user. Now, that would be something!”
+    
+    Berners-Lee came up with a brief set of text tags that computers could interpret, send over a network, and render into readable form — and HTML, or Hypertext Markup Language, was born.
+    
+    The language is so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
+    
+    But its capabilities were limited, and people wanted this new World Wide Web to be sexy and cool. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
+    
+    The web and its primary authoring tool, HTML, will continue to evolve and improve. But despite these ongoing changes, HTML is still a simple, text-based computer language that, with a little practice, anyone can learn.
   </p>
 </details>
 
@@ -155,15 +171,16 @@ HTML Boilerplate
   
   Your roommate Zelda dabbles in web design and has been building a website for her heavy metal band. She’s not too happy with how it’s turned out, and neither are you. It needs a good dose of personality. And “Mega Beast”? What a generic band name. What about something more unique, like... “Kasserole”?
   
-  ![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/css-unit-assets/mega-beast.png)</p>
+  <img src="https://ga-instruction.s3.amazonaws.com/assets/intro-tech/css-unit-assets/mega-beast.png" alt="heavy-metal-album-image">
+</p>
 
 
 ---
 
 <h1 class="slide-header">First Things First</h1>
 
-<p>
-  Zelda loves your idea for the band name so much that she’s handing over the reins of the site. She wants you to give it a total overhaul.
+<p style="white-space: pre-wrap;">
+Zelda loves your idea for the band name so much that she’s handing over the reins of the site. She wants you to give it a total overhaul.
 
 Are you ready for this?
 
@@ -179,7 +196,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 <p>
   Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
 
-<code>
+```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -190,10 +207,22 @@ Let’s start with the basics — a template that makes it easy to get up and ru
     </body>
 
     </html>
-</code>
+```
 
 Let’s examine each of these lines more closely to find out what they do.
 </p>
+
+---
+
+<h1 class="slide-header">Breaking Down the Boilerplate</h1>
+
+<details>
+  <summary>
+    <code>
+      <!DOCTYPE html>
+    </code>
+  </summary>
+</details>
 
 ---
 
