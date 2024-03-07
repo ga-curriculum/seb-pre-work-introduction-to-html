@@ -218,9 +218,28 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details>
   <summary>
-    <code>
-      <!DOCTYPE html>
-    </code>
+    `<DOCTYPE html>`
+  </summary>
+  This lets your web browser know that the following document will be written in HTML. 
+
+  {::nomarkdown}
+  **<!DOCTYPE html>**
+  <html>
+    <head>
+    <title> </title>
+    </head>
+
+  <body>
+  </body>
+
+  </html>
+  {:/}
+</details>
+
+<details>
+  <summary>
+
+    `<html>`
   </summary>
 </details>
 
