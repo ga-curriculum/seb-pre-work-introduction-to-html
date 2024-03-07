@@ -217,10 +217,12 @@ Let’s examine each of these lines more closely to find out what they do.
 
 <details markdown=1><summary markdown="span">HTML</summary>
 
-```xml
+<pre>
+<code>
   <html></html>
   <p>hi</p>
-```
+</code>
+</pre>
 
 </details>
 
