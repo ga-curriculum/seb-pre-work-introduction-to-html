@@ -203,10 +203,8 @@ Let’s start with the basics — a template that makes it easy to get up and ru
         <head>
         <title> </title>
         </head>
-    
-      <body>
-      </body>
-    
+        <body>
+        </body>
       </html>
   </code>
 </pre>
