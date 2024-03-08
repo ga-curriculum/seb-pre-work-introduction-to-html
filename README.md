@@ -212,7 +212,8 @@ Let’s examine each of these lines more closely to find out what they do.
 </p>
 
 ---
-# `<html>`
+# 
+<h2 class='slide-header'>`<html>`</h2>
 
 The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
 
