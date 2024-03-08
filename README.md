@@ -194,7 +194,7 @@ Let’s start with the basics — a template that makes it easy to get up and ru
 <h1 class="slide-header">The HTML Boilerplate</h1>
 
 <p>
-Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is, well, HTML:
+Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is HTML:
 </p>
 
 ```html
@@ -214,8 +214,9 @@ Let’s examine each of these lines more closely to find out what they do.
 ---
 <h1 class='slide-header'>The html tag</h1>
 
-
+<p>
 The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
+</p>
 
 ```html
 <!DOCTYPE html>
