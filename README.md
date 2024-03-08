@@ -212,6 +212,26 @@ Let’s examine each of these lines more closely to find out what they do.
 </p>
 
 ---
+
+<h1 class='slide-header'>The DOCTYPE tag</h1>
+
+This lets your web browser know that the following document will be written in HTML. 
+
+```html
+**<!DOCTYPE html>**
+<html>
+  <head>
+   <title> </title>
+  </head>
+
+<body>
+</body>
+
+</html>
+```
+
+---
+
 <h1 class='slide-header'>The html tag</h1>
 
 The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
@@ -226,6 +246,66 @@ The `<html>` tag begins your HTML document. It says, “Everything between my _o
   </body>
 **</html>**
 ```
+
+---
+
+<h1 class='slide-header'>The head tag</h1>
+
+The `<head>` tag contains most of the under-the-hood stuff that helps identify your webpage and allows it to show up in search results. This is called **metadata**.
+
+```html
+<!DOCTYPE html>
+<html>
+  **<head>**
+   <title> </title>
+  **</head>**
+
+<body>
+</body>
+
+</html>
+```
+
+---
+
+<h1 class='slide-header'>The title tag</h1>
+
+The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kind of title text on your webpage. Instead, the `<title>` tag provides your page with a name that will appear in search engine results. It’s also the text that appears at the top of your browser window or tab. See what appears for Netflix, Google, and Medium in the image below? Those are `<title>` tags in action.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+   **<title> </title>**
+  </head>
+
+<body>
+</body>
+
+</html>
+```
+
+![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/title%20tag.png)
+
+---
+<h1 class='slide-header'>The body tag</h1>
+
+You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s website? All of that is included in the `<body>`.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> </title>
+  </head>
+
+**<body>**
+**</body>**
+
+</html>
+```
+
+![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
 
 ---
 
