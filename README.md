@@ -309,7 +309,20 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 
 ---
 
-<h1 class="slide-header">Code Challenge</h1>
+<h1 class="slide-header">Our First Code Challenge</h1>
+
+Time to put your new knowledge to work!
+
+You’ll be using our built-in online code editor to build Zelda’s website. This platform will provide a workspace and a preview of your page. For now, we’ll only need the HTML section but, in future lessons, you’ll also be able to add CSS and JavaScript code. 
+
+You won’t need to add the HTML boilerplate — our code editor automatically places your submitted code inside of the `<body>` tags. Just know that it’s there in the background and be sure to include it in any sites you build on your own!
+
+Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page. 
+1. Type the following code exactly as it appears: `<h1>Kasserole</h1>`.
+
+To confirm you’ve successfully completed the myGA code challenge, click the button to run your code. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed.
+
+Good luck!
 
 <iframe height="500" style="width: 100%;" scrolling="no" title="Code Challenge Test" src="https://codepen.io/Ryan-Brodsky/embed/VwNwXqq?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href="https://codepen.io/Ryan-Brodsky/pen/VwNwXqq">
@@ -319,47 +332,125 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 
 ---
 
-<h1 class="slide-header">Multiple Choice Question</h1>
+<h1 class="slide-header">A Quick Note About Our Code Editor </h1>
 
-<fieldset>
-  <legend>Please select one of the following</legend>
-  <input type="radio" name="action" id="track" value="track" correct="true"/><label for="track">Correct Answer</label><br />
-  <input type="radio" name="action" id="event" value="event"  /><label for="event">Incorrect</label><br />
-  <input type="radio" name="action" id="message" value="message" /><label for="message">Incorrect</label><br />
-</fieldset>
-<button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+We hope you liked the code editor in the previous exercise, because you'll be using the same code editor in future code exercises. It allows us to get straight to coding without tedious set-up work. We can edit HTML, CSS, and JavaScript code and see the results of our changes in real time.
+
+Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
+
+![](https://ga-create-api-assets.s3.amazonaws.com/GA Brand Images/Illustrations - Browsers _ Devices/2019_Screens_Back_End.png)
+
+---
+
+<h1 class='slide-header'>What Did We Just Do?</h1>
+
+Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous exercise.
+
+What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
+
+![What opening and closing tags mean](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/speech-bubbles.png)
+
+Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
+
+---
+
+<h1 class="slide-header">HTML Tags Galore</h1>
+
+There are dozens of HTML elements, each with their own unique purpose. Here are just a few of the tags we use to define them:
+
+| Tag | What It Does |
+| -------- | -------- | 
+| `<h1-6>` | Creates heading text, with `<h1>` being the largest and `<h6>` the smallest. | 
+| `<p>` | Creates a paragraph of text. |
+| `<ul>` | Begins an “unordered list”  (e.g., bullets). | 
+| `<li>` | Indicates each list item inside of a `<ul>`. |
+| `<a>` | Opens a hyperlink. | 
+| `<div>` | Defines a new section on the page. |
+| `<img>` | Adds an image. |
+| `<br />` | Creates a line break. | 
+
+You might be wondering how you’ll ever remember all of those tags. Not to worry, you don’t have to!
+
+You’ll learn some tags from frequent use; others you’ll never touch. And still others you can simply look up as needed. Tons of websites publish lists of HTML tags for easy reference. We recommend bookmarking <a href="https://www.w3schools.com/tags/" target="_blank">this handy one</a>.
+
+And remember, even experienced web designers sometimes have to look up tags while coding!
+
+---
+
+<h1 class="slide-header">HTML Tags in Action</h1>
+
+Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>. (Either look at the image below or click the link to explore the Medium website itself).
+* An `<h1>` for the largest article on the page, “How I Stopped Sitting Around All Day” (note that the Medium logo at the top of the page is an image!).
+* An `<h2>` for lesser articles on the page, like “Welcome to the Age of Helplessness.”
+* `<img>` tags that contain images for each article.
+* `<a>` tags that link to the articles themselves.
+
+![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
+
+---
+
+<h1 class='slide-header'>HTML Hierarchy</h1>
+
+You may have noticed that some elements fit inside of other elements, like when we sandwich the `<h1>` below between the `<body>`’s _opening_ and _closing_ tags.
+
+HTML tags follow an established **hierarchy** to help structure information. Elements that sit inside of other elements are called **child elements**, while those that contain other elements are called **parent elements**.  So, `<h1>` is a child element of its parent, the `<body>` tag. 
+
+We use **indentation** in our code to visualize the hierarchy of HTML elements:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> </title>
+  </head>
+
+<body>
+  <h1>My First Website</h1>
+</body>
+
+</html>
+```
+
+---
+
+<h1 class="slide-header">Knowledge Check</h1>
+
+Take a look at the HTML below. Which of the following statements about its hierarchy are **true**? Select all that apply
+
+```html
+<body>
+ <h1>Hi! I’m an H1. I’m so excited for you to meet the world of HTML.</h1>
+ <p>I’m a paragraph. I too think it’s great that you’re learning HTML.</p>
+ <ul>
+  <li>HTML is used everywhere.</li>
+  <li>HTML is pretty easy to learn!</li>
+  <li>Once you know HTML, you can make your websites say whatever you want.</li>
+ </ul>
+</body>
+```
 
 <fieldset>
   <legend>Please select all that apply</legend>
-  <input type="checkbox" id="uniqueAnswer" name="unique" correct="true"/><label for="uniqueAnswer">Correct Answer</label><br />
-  <input type="checkbox" id="uniqueAnswer2" name="unique2" /><label for="uniqueAnswer2">Incorrect Answer</label><br />
-  <input type="checkbox" id="uniqueAnswer3" name="unique3" correct="true"/><label for="uniqueAnswer3">Correct Answer</label><br />
+  <input type="checkbox" id="uniqueAnswer" name="unique" /><label for="uniqueAnswer">The p tag is a child of the h1 tag</label><br />
+  <input type="checkbox" id="uniqueAnswer2" name="unique2" correct="true"/><label for="uniqueAnswer2">The li tags are children of the ul tag</label><br />
+  <input type="checkbox" id="uniqueAnswer3" name="unique3" /><label for="uniqueAnswer3">The h1 is the parent of the ul</label><br />
+  <input type="checkbox" id="uniqueAnswer4" name="unique3" correct="true"/><label for="uniqueAnswer4">The body tag is the parent of the p tag</label><br />
+  <input type="checkbox" id="uniqueAnswer3" name="unique3" correct="true"/><label for="uniqueAnswer3">The ul tag is a child of the body tag</label><br />
 </fieldset>
 
 <button class="ant-btn ant-btn-primary multiple-choice-checkbox-submit">Submit Answer</button>
 
 ---
 
-<h1 class="slide-header">Cards Slide</h1>
-
-<details>
-  <summary>Vocabulary Term</summary>
-  
-  <p class="transcript-text">
-    Definition when "flipped" by the student
-  </p>
-</details>
-
-<details>
-  <summary>Vocabulary Term</summary>
-  
-  <p class="transcript-text">
-    Definition when "flipped" by the student
-  </p>
-</details>
-
----
-
 <h1 class="slide-header">Conclusion</h1>
+
+Congrats, you’re now versed in the basics of HTML! 
+
+In this lesson, you learned:  
+* That HTML stands for “Hypertext Markup Language.”
+* How to set up HTML documents using the HTML boilerplate.
+* How to use the `<title>` tag to add a title for a webpage, which will display in browser tabs and search results.
+* How to use HTML tags to define the elements that appear on a page (e.g., an `<h1>` heading).
+* How HTML uses parent/child language to explain the hierarchy of elements.
 
 </textarea>
