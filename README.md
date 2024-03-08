@@ -320,7 +320,7 @@ You won’t need to add the HTML boilerplate — our code editor automatically p
 Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page. 
 1. Type the following code exactly as it appears: `<h1>Kasserole</h1>`.
 
-To confirm you’ve successfully completed the myGA code challenge, click the button to run your code. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed.
+To confirm you’ve successfully completed the code challenge, click the View Test Results button. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed. As you make changes, you'll see the results "reload" in real-time, so don't be alarmed to see the preview page "refresh" every now and then.
 
 Good luck!
 
@@ -415,7 +415,7 @@ We use **indentation** in our code to visualize the hierarchy of HTML elements:
 
 <h1 class="slide-header">Knowledge Check</h1>
 
-Take a look at the HTML below. Which of the following statements about its hierarchy are **true**? Select all that apply
+Take a look at the HTML below. Which of the following statements about its hierarchy are **true**?
 
 ```html
 <body>
