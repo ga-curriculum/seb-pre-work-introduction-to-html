@@ -434,8 +434,8 @@ Take a look at the HTML below. Which of the following statements about its hiera
   <input type="checkbox" id="uniqueAnswer" name="unique" /><label for="uniqueAnswer">The p tag is a child of the h1 tag</label><br />
   <input type="checkbox" id="uniqueAnswer2" name="unique2" correct="true"/><label for="uniqueAnswer2">The li tags are children of the ul tag</label><br />
   <input type="checkbox" id="uniqueAnswer3" name="unique3" /><label for="uniqueAnswer3">The h1 is the parent of the ul</label><br />
-  <input type="checkbox" id="uniqueAnswer4" name="unique3" correct="true"/><label for="uniqueAnswer4">The body tag is the parent of the p tag</label><br />
-  <input type="checkbox" id="uniqueAnswer3" name="unique3" correct="true"/><label for="uniqueAnswer3">The ul tag is a child of the body tag</label><br />
+  <input type="checkbox" id="uniqueAnswer4" name="unique4" correct="true"/><label for="uniqueAnswer4">The body tag is the parent of the p tag</label><br />
+  <input type="checkbox" id="uniqueAnswer5" name="unique5" correct="true"/><label for="uniqueAnswer5">The ul tag is a child of the body tag</label><br />
 </fieldset>
 
 <button class="ant-btn ant-btn-primary multiple-choice-checkbox-submit">Submit Answer</button>
