@@ -324,7 +324,7 @@ To confirm you’ve successfully completed the code challenge, click the View Te
 
 Good luck!
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="Kasserole H1" src="https://codepen.io/GAmarketing/embed/bGJBrWr?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="400" sandbox style="width: 100%;" scrolling="no" title="Kasserole H1" src="https://codepen.io/GAmarketing/embed/bGJBrWr?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/bGJBrWr">
   Kasserole H1</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
