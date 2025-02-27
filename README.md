@@ -342,7 +342,7 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:50%;"/>
+<!-- <img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:50%;"/> -->
 
 ---
 
