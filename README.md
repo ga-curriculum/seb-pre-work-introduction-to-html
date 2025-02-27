@@ -309,7 +309,7 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 </html>
 ```
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:50%;"/>
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
 
 ---
 
@@ -393,7 +393,7 @@ Let's see if we can identify a couple of HTML tags in use on the <a href="https:
 - `<a>` tags that link to the articles themselves.
 
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:50%;"/>
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
 
 ---
 
