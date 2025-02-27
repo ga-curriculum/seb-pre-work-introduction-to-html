@@ -22,7 +22,7 @@ HTML Boilerplate
 
 <hr>
 
-<a href="https://ga-waite.s3.amazonaws.com/production/sanitized-pdfs/introduction-to-html-2.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+<a href="./assets/introduction_to_html_study_guide.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -143,19 +143,19 @@ HTML Boilerplate
 
     The year is 1990. The place is a particle physics facility in a suburb of Geneva, Switzerland.
     
-    A physicist, Tim Berners-Lee, is feeling disgruntled. He’s tired of logging on to so many different computers to get the information he needs.
+    A physicist, Tim Berners-Lee, is feeling frustrated. He’s tired of logging on to multiple computers just to gather the information he needs.
     
     There has to be a better way! 
     
-    “What if I came up with a computer language that would allow people to alter text so that it could be sent over a network? Then any computer connected to that network could interpret the text and make it readable for the user. Now, that would be something!”
+    “What if I created a computer language that allowed people to format text so it could be sent over a network? Then any computer connected to that network could interpret the text and display it in a readable way. Now, that would be something!”
     
-    Berners-Lee came up with a brief set of text tags that computers could interpret, send over a network, and render into readable form — and HTML, or Hypertext Markup Language, was born.
+    Berners-Lee developed a simple set of text-based tags that computers could process, transmit over a network, and render into readable content — and just like that, HTML, or Hypertext Markup Language, was born.
     
-    The language is so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
+    The language was so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
     
-    But its capabilities were limited, and people wanted this new World Wide Web to be sexy and cool. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
+    But its capabilities were limited, and people wanted the World Wide Web to be more visually engaging and interactive. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
     
-    The web and its primary authoring tool, HTML, will continue to evolve and improve. But despite these ongoing changes, HTML is still a simple, text-based computer language that, with a little practice, anyone can learn.
+    The web and its core language, HTML, continue to evolve and improve. But despite these ongoing advancements, HTML remains a simple, text-based language that, with a little practice, anyone can learn.
   </p>
 </details>
 
@@ -163,15 +163,17 @@ HTML Boilerplate
 
 <h1 class="slide-header">Your First Job</h1>
 
-<p>In the video, you learned that HTML stands for "Hypertext Markup Language." So what's *hypertext*?  Simply put, it's text that's not designed to be linear. We've all seen links on a website that go to other pages or even other sites—this is the non-linearity of HTML!
+<p>In the video, you learned that HTML stands for <strong>Hypertext Markup Language</strong>. But what does <strong>hypertext</strong> mean?
+
+  Simply put, hypertext is text that connects to other information, instead of just being read in a straight line from start to finish. For example, when you see a link on a webpage that takes you to another page or website, that’s hypertext in action! It allows users to jump between different pieces of information instead of reading everything in order.
 
   As we explore HTML, you’ll be diving in and getting your hands dirty. You’ll practice what you learn and develop a website in the process. Exciting stuff!
   
-  At this point you might be wondering, “What website?” 
+  At this point you might be wondering, “What website?”
   
   Your roommate Zelda dabbles in web design and has been building a website for her heavy metal band. She’s not too happy with how it’s turned out, and neither are you. It needs a good dose of personality. And “Mega Beast”? What a generic band name. What about something more unique, like... “Kasserole”?
   
-  <img src="https://ga-instruction.s3.amazonaws.com/assets/intro-tech/css-unit-assets/mega-beast.png" alt="heavy-metal-album-image">
+  <img src="./assets/mega-beast.png" alt="heavy-metal-album-image" style="width:50%;">
 </p>
 
 
@@ -201,7 +203,7 @@ Here’s an example of an HTML boilerplate. It should be inserted at the beginni
 <!DOCTYPE html>
 <html>
   <head>
-    <title> </title>
+    <title></title>
   </head>
   <body>
   </body>
@@ -218,15 +220,14 @@ Let’s examine each of these lines more closely to find out what they do.
 This lets your web browser know that the following document will be written in HTML. 
 
 ```html
-**<!DOCTYPE html>**
+<!DOCTYPE html>
+
 <html>
   <head>
-   <title> </title>
+    <title></title>
   </head>
-
-<body>
-</body>
-
+  <body>
+  </body>
 </html>
 ```
 
@@ -238,13 +239,16 @@ The `<html>` tag begins your HTML document. It says, “Everything between my _o
 
 ```html
 <!DOCTYPE html>
-**<html>**
+
+<html>
+
   <head>
-    <title> </title>
+    <title></title>
   </head>
   <body>
   </body>
-**</html>**
+
+</html>
 ```
 
 ---
@@ -256,13 +260,13 @@ The `<head>` tag contains most of the under-the-hood stuff that helps identify y
 ```html
 <!DOCTYPE html>
 <html>
-  **<head>**
-   <title> </title>
-  **</head>**
 
-<body>
-</body>
+  <head>
+    <title></title>
+  </head>
 
+  <body>
+  </body>
 </html>
 ```
 
@@ -276,36 +280,36 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 <!DOCTYPE html>
 <html>
   <head>
-   **<title> </title>**
+
+    <title>Google</title>
+
   </head>
-
-<body>
-</body>
-
+  <body>
+  </body>
 </html>
 ```
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/title%20tag.png)
+<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:80%;"/>
 
 ---
 <h1 class='slide-header'>The body tag</h1>
 
-You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s website? All of that is included in the `<body>`.
+You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s Blog website? All of that is included in the `<body>`.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-   <title> </title>
+    <title></title>
   </head>
 
-**<body>**
-**</body>**
+  <body>
+  </body>
 
 </html>
 ```
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
 
 ---
 
@@ -338,7 +342,7 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-![](https://ga-create-api-assets.s3.amazonaws.com/GA Brand Images/Illustrations - Browsers _ Devices/2019_Screens_Back_End.png)
+<!-- <img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:50%;"/> -->
 
 ---
 
@@ -348,7 +352,8 @@ Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous 
 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
-![What opening and closing tags mean](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/speech-bubbles.png)
+
+<img src="./assets/opening-and-closing-tags.png" alt=“What opening and closing tags mean” style="width:80%;"/>
 
 Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
 
@@ -359,19 +364,21 @@ Note that the instructions to the computer consist of a bit of text surrounded b
 There are dozens of HTML elements, each with their own unique purpose. Here are just a few of the tags we use to define them:
 
 | Tag | What It Does |
-| -------- | -------- | 
-| `<h1-6>` | Creates heading text, with `<h1>` being the largest and `<h6>` the smallest. | 
+|----------|-------------|
+| `<h1>` - `<h6>` | Creates heading text, where `<h1>` is the most important (largest) and `<h6>` is the least important (smallest). |
 | `<p>` | Creates a paragraph of text. |
-| `<ul>` | Begins an “unordered list”  (e.g., bullets). | 
-| `<li>` | Indicates each list item inside of a `<ul>`. |
-| `<a>` | Opens a hyperlink. | 
-| `<div>` | Defines a new section on the page. |
-| `<img>` | Adds an image. |
-| `<br />` | Creates a line break. | 
+| `<ul>` | Begins an unordered list (e.g., bullet points). |
+| `<ol>` | Begins an ordered list (e.g., numbered list). |
+| `<li>` | Represents a list item inside a `<ul>` or `<ol>`. |
+| `<a href="URL">` | Creates a hyperlink to another webpage or resource. Requires an `href` attribute to define the destination. |
+| `<div>` | Defines a generic container for grouping content, often used for styling or layout purposes. |
+| `<span>` | Similar to `<div>`, but used for inline elements rather than block-level sections. |
+| `<img src="URL" alt="description" />` | Embeds an image. Requires a `src` attribute for the image source and an `alt` attribute for accessibility. |
+
 
 You might be wondering how you’ll ever remember all of those tags. Not to worry, you don’t have to!
 
-You’ll learn some tags from frequent use; others you’ll never touch. And still others you can simply look up as needed. Tons of websites publish lists of HTML tags for easy reference. We recommend bookmarking <a href="https://www.w3schools.com/tags/" target="_blank">this handy one</a>.
+You’ll learn some tags from frequent use; others you’ll never touch. And still others you can simply look up as needed. Tons of websites publish lists of HTML tags for easy reference. We recommend bookmarking <a href="https://www.w3schools.com/tags/" target="_blank">w3schools</a> as a helpful reference site.
 
 And remember, even experienced web designers sometimes have to look up tags while coding!
 
@@ -379,13 +386,14 @@ And remember, even experienced web designers sometimes have to look up tags whil
 
 <h1 class="slide-header">HTML Tags in Action</h1>
 
-Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>. (Either look at the image below or click the link to explore the Medium website itself).
-* An `<h1>` for the largest article on the page, “How I Stopped Sitting Around All Day” (note that the Medium logo at the top of the page is an image!).
-* An `<h2>` for lesser articles on the page, like “Welcome to the Age of Helplessness.”
-* `<img>` tags that contain images for each article.
-* `<a>` tags that link to the articles themselves.
+Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>.
+- An `<h1>` for the largest article on the page, “The Medium Blog” (note that the Medium logo at the top of the page is actually an image!).
+- An `<h2>` for lesser articles on the page, like “Making Featured stories even more visible.”
+- `<img>` tags that contain images for each article.
+- `<a>` tags that link to the articles themselves.
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
+
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
 
 ---
 
@@ -401,13 +409,11 @@ We use **indentation** in our code to visualize the hierarchy of HTML elements:
 <!DOCTYPE html>
 <html>
   <head>
-   <title> </title>
+    <title></title>
   </head>
-
-<body>
-  <h1>My First Website</h1>
-</body>
-
+  <body>
+    <h1>My First Website</h1>
+  </body>
 </html>
 ```
 
@@ -419,13 +425,13 @@ Take a look at the HTML below. Which of the following statements about its hiera
 
 ```html
 <body>
- <h1>Hi! I’m an H1. I’m so excited for you to meet the world of HTML.</h1>
- <p>I’m a paragraph. I too think it’s great that you’re learning HTML.</p>
- <ul>
-  <li>HTML is used everywhere.</li>
-  <li>HTML is pretty easy to learn!</li>
-  <li>Once you know HTML, you can make your websites say whatever you want.</li>
- </ul>
+  <h1>Hi! I’m an H1. I’m so excited for you to meet the world of HTML.</h1>
+  <p>I’m a paragraph. I too think it’s great that you’re learning HTML.</p>
+  <ul>
+    <li>HTML is used everywhere.</li>
+    <li>HTML is pretty easy to learn!</li>
+    <li>Once you know HTML, you can make your websites say whatever you want.</li>
+  </ul>
 </body>
 ```
 
