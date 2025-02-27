@@ -409,13 +409,11 @@ We use **indentation** in our code to visualize the hierarchy of HTML elements:
 <!DOCTYPE html>
 <html>
   <head>
-   <title> </title>
+    <title></title>
   </head>
-
-<body>
-  <h1>My First Website</h1>
-</body>
-
+  <body>
+    <h1>My First Website</h1>
+  </body>
 </html>
 ```
 
@@ -427,13 +425,13 @@ Take a look at the HTML below. Which of the following statements about its hiera
 
 ```html
 <body>
- <h1>Hi! I’m an H1. I’m so excited for you to meet the world of HTML.</h1>
- <p>I’m a paragraph. I too think it’s great that you’re learning HTML.</p>
- <ul>
-  <li>HTML is used everywhere.</li>
-  <li>HTML is pretty easy to learn!</li>
-  <li>Once you know HTML, you can make your websites say whatever you want.</li>
- </ul>
+  <h1>Hi! I’m an H1. I’m so excited for you to meet the world of HTML.</h1>
+  <p>I’m a paragraph. I too think it’s great that you’re learning HTML.</p>
+  <ul>
+    <li>HTML is used everywhere.</li>
+    <li>HTML is pretty easy to learn!</li>
+    <li>Once you know HTML, you can make your websites say whatever you want.</li>
+  </ul>
 </body>
 ```
 
