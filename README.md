@@ -218,7 +218,7 @@ Let’s examine each of these lines more closely to find out what they do.
 This lets your web browser know that the following document will be written in HTML. 
 
 ```html
-**<!DOCTYPE html>**
+<!DOCTYPE html>
 <html>
   <head>
    <title> </title>
@@ -238,13 +238,13 @@ The `<html>` tag begins your HTML document. It says, “Everything between my _o
 
 ```html
 <!DOCTYPE html>
-**<html>**
+  <html>
   <head>
     <title> </title>
   </head>
   <body>
   </body>
-**</html>**
+  </html>
 ```
 
 ---
@@ -256,9 +256,9 @@ The `<head>` tag contains most of the under-the-hood stuff that helps identify y
 ```html
 <!DOCTYPE html>
 <html>
-  **<head>**
+    <head>
    <title> </title>
-  **</head>**
+    </head>
 
 <body>
 </body>
@@ -276,7 +276,7 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 <!DOCTYPE html>
 <html>
   <head>
-   **<title> </title>**
+     <title> </title>
   </head>
 
 <body>
@@ -299,8 +299,8 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
    <title> </title>
   </head>
 
-**<body>**
-**</body>**
+  <body>
+  </body>
 
 </html>
 ```
@@ -360,19 +360,21 @@ Note that the instructions to the computer consist of a bit of text surrounded b
 There are dozens of HTML elements, each with their own unique purpose. Here are just a few of the tags we use to define them:
 
 | Tag | What It Does |
-| -------- | -------- | 
-| `<h1-6>` | Creates heading text, with `<h1>` being the largest and `<h6>` the smallest. | 
+|----------|-------------|
+| `<h1>` - `<h6>` | Creates heading text, where `<h1>` is the most important (largest) and `<h6>` is the least important (smallest). |
 | `<p>` | Creates a paragraph of text. |
-| `<ul>` | Begins an “unordered list”  (e.g., bullets). | 
-| `<li>` | Indicates each list item inside of a `<ul>`. |
-| `<a>` | Opens a hyperlink. | 
-| `<div>` | Defines a new section on the page. |
-| `<img>` | Adds an image. |
-| `<br />` | Creates a line break. | 
+| `<ul>` | Begins an unordered list (e.g., bullet points). |
+| `<ol>` | Begins an ordered list (e.g., numbered list). |
+| `<li>` | Represents a list item inside a `<ul>` or `<ol>`. |
+| `<a href="URL">` | Creates a hyperlink to another webpage or resource. Requires an `href` attribute to define the destination. |
+| `<div>` | Defines a generic container for grouping content, often used for styling or layout purposes. |
+| `<span>` | Similar to `<div>`, but used for inline elements rather than block-level sections. |
+| `<img src="URL" alt="description" />` | Embeds an image. Requires a `src` attribute for the image source and an `alt` attribute for accessibility. |
+
 
 You might be wondering how you’ll ever remember all of those tags. Not to worry, you don’t have to!
 
-You’ll learn some tags from frequent use; others you’ll never touch. And still others you can simply look up as needed. Tons of websites publish lists of HTML tags for easy reference. We recommend bookmarking <a href="https://www.w3schools.com/tags/" target="_blank">this handy one</a>.
+You’ll learn some tags from frequent use; others you’ll never touch. And still others you can simply look up as needed. Tons of websites publish lists of HTML tags for easy reference. We recommend bookmarking <a href="https://www.w3schools.com/tags/" target="_blank">w3schools</a> as a helpful reference site.
 
 And remember, even experienced web designers sometimes have to look up tags while coding!
 
