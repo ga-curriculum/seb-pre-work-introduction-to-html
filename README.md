@@ -143,19 +143,19 @@ HTML Boilerplate
 
     The year is 1990. The place is a particle physics facility in a suburb of Geneva, Switzerland.
     
-    A physicist, Tim Berners-Lee, is feeling disgruntled. He’s tired of logging on to so many different computers to get the information he needs.
+    A physicist, Tim Berners-Lee, is feeling frustrated. He’s tired of logging on to multiple computers just to gather the information he needs.
     
     There has to be a better way! 
     
-    “What if I came up with a computer language that would allow people to alter text so that it could be sent over a network? Then any computer connected to that network could interpret the text and make it readable for the user. Now, that would be something!”
+    “What if I created a computer language that allowed people to format text so it could be sent over a network? Then any computer connected to that network could interpret the text and display it in a readable way. Now, that would be something!”
     
-    Berners-Lee came up with a brief set of text tags that computers could interpret, send over a network, and render into readable form — and HTML, or Hypertext Markup Language, was born.
+    Berners-Lee developed a simple set of text-based tags that computers could process, transmit over a network, and render into readable content — and just like that, HTML, or Hypertext Markup Language, was born.
     
-    The language is so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
+    The language was so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
     
-    But its capabilities were limited, and people wanted this new World Wide Web to be sexy and cool. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
+    But its capabilities were limited, and people wanted the World Wide Web to be more visually engaging and interactive. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
     
-    The web and its primary authoring tool, HTML, will continue to evolve and improve. But despite these ongoing changes, HTML is still a simple, text-based computer language that, with a little practice, anyone can learn.
+    The web and its core language, HTML, continue to evolve and improve. But despite these ongoing advancements, HTML remains a simple, text-based language that, with a little practice, anyone can learn.
   </p>
 </details>
 
@@ -163,15 +163,17 @@ HTML Boilerplate
 
 <h1 class="slide-header">Your First Job</h1>
 
-<p>In the video, you learned that HTML stands for "Hypertext Markup Language." So what's *hypertext*?  Simply put, it's text that's not designed to be linear. We've all seen links on a website that go to other pages or even other sites—this is the non-linearity of HTML!
+<p>In the video, you learned that HTML stands for <strong>Hypertext Markup Language</strong>. But what does <strong>hypertext</strong> mean?
+
+  Simply put, hypertext is text that connects to other information, instead of just being read in a straight line from start to finish. For example, when you see a link on a webpage that takes you to another page or website, that’s hypertext in action! It allows users to jump between different pieces of information instead of reading everything in order.
 
   As we explore HTML, you’ll be diving in and getting your hands dirty. You’ll practice what you learn and develop a website in the process. Exciting stuff!
   
-  At this point you might be wondering, “What website?” 
+  At this point you might be wondering, “What website?”
   
   Your roommate Zelda dabbles in web design and has been building a website for her heavy metal band. She’s not too happy with how it’s turned out, and neither are you. It needs a good dose of personality. And “Mega Beast”? What a generic band name. What about something more unique, like... “Kasserole”?
   
-  <img src="./assets/mega-beast.png" alt="heavy-metal-album-image">
+  <img src="./assets/mega-beast.png" alt="heavy-metal-album-image" style="width:50%;">
 </p>
 
 
@@ -219,14 +221,13 @@ This lets your web browser know that the following document will be written in H
 
 ```html
 <!DOCTYPE html>
+
 <html>
   <head>
-   <title> </title>
+    <title> </title>
   </head>
-
-<body>
-</body>
-
+  <body>
+  </body>
 </html>
 ```
 
@@ -238,13 +239,16 @@ The `<html>` tag begins your HTML document. It says, “Everything between my _o
 
 ```html
 <!DOCTYPE html>
-  <html>
+
+<html>
+
   <head>
     <title> </title>
   </head>
   <body>
   </body>
-  </html>
+
+</html>
 ```
 
 ---
@@ -256,13 +260,13 @@ The `<head>` tag contains most of the under-the-hood stuff that helps identify y
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-   <title> </title>
-    </head>
 
-<body>
-</body>
+  <head>
+    <title> </title>
+  </head>
 
+  <body>
+  </body>
 </html>
 ```
 
@@ -276,27 +280,27 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 <!DOCTYPE html>
 <html>
   <head>
-     <title> </title>
+
+    <title> </title>
+
   </head>
-
-<body>
-</body>
-
+  <body>
+  </body>
 </html>
 ```
 
-<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:800px;"/>
+<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:80%px;"/>
 
 ---
 <h1 class='slide-header'>The body tag</h1>
 
-You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s website? All of that is included in the `<body>`.
+You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s Blog website? All of that is included in the `<body>`.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-   <title> </title>
+    <title> </title>
   </head>
 
   <body>
@@ -305,7 +309,7 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 </html>
 ```
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:700px;"/>
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:50%;"/>
 
 ---
 
@@ -338,7 +342,7 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:600px;"/>
+<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:50%;"/>
 
 ---
 
@@ -349,7 +353,7 @@ Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
 
-<img src="./assets/opening-and-closing-tags.png" alt=“What opening and closing tags mean” style="width:600px;"/>
+<img src="./assets/opening-and-closing-tags.png" alt=“What opening and closing tags mean” style="width:80%;"/>
 
 Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
 
@@ -389,7 +393,7 @@ Let's see if we can identify a couple of HTML tags in use on the <a href="https:
 - `<a>` tags that link to the articles themselves.
 
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:700px;"/>
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:50%;"/>
 
 ---
 
