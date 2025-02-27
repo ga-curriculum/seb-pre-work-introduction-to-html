@@ -22,7 +22,7 @@ HTML Boilerplate
 
 <hr>
 
-<a href="https://ga-waite.s3.amazonaws.com/production/sanitized-pdfs/introduction-to-html-2.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+<a href="./assets/introduction_to_html_study_guide.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -171,7 +171,7 @@ HTML Boilerplate
   
   Your roommate Zelda dabbles in web design and has been building a website for her heavy metal band. She’s not too happy with how it’s turned out, and neither are you. It needs a good dose of personality. And “Mega Beast”? What a generic band name. What about something more unique, like... “Kasserole”?
   
-  <img src="https://ga-instruction.s3.amazonaws.com/assets/intro-tech/css-unit-assets/mega-beast.png" alt="heavy-metal-album-image">
+  <img src="./assets/mega-beast.png" alt="heavy-metal-album-image">
 </p>
 
 
@@ -285,7 +285,7 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 </html>
 ```
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/title%20tag.png)
+<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:800px;"/>
 
 ---
 <h1 class='slide-header'>The body tag</h1>
@@ -305,7 +305,7 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 </html>
 ```
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:700px;"/>
 
 ---
 
@@ -338,7 +338,7 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-![](https://ga-create-api-assets.s3.amazonaws.com/GA Brand Images/Illustrations - Browsers _ Devices/2019_Screens_Back_End.png)
+<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:600px;"/>
 
 ---
 
@@ -348,7 +348,8 @@ Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous 
 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
-![What opening and closing tags mean](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/speech-bubbles.png)
+
+<img src="./assets/opening-and-closing-tags.png" alt=“What opening and closing tags mean” style="width:600px;"/>
 
 Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
 
@@ -379,13 +380,14 @@ And remember, even experienced web designers sometimes have to look up tags whil
 
 <h1 class="slide-header">HTML Tags in Action</h1>
 
-Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>. (Either look at the image below or click the link to explore the Medium website itself).
-* An `<h1>` for the largest article on the page, “How I Stopped Sitting Around All Day” (note that the Medium logo at the top of the page is an image!).
-* An `<h2>` for lesser articles on the page, like “Welcome to the Age of Helplessness.”
-* `<img>` tags that contain images for each article.
-* `<a>` tags that link to the articles themselves.
+Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>.
+- An `<h1>` for the largest article on the page, “The Medium Blog” (note that the Medium logo at the top of the page is actually an image!).
+- An `<h2>` for lesser articles on the page, like “Making Featured stories even more visible.”
+- `<img>` tags that contain images for each article.
+- `<a>` tags that link to the articles themselves.
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/body%20tag.png)
+
+<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:700px;"/>
 
 ---
 
