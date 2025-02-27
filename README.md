@@ -375,6 +375,7 @@ There are dozens of HTML elements, each with their own unique purpose. Here are 
 | `<span>` | Similar to `<div>`, but used for inline elements rather than block-level sections. |
 | `<img src="URL" alt="description" />` | Embeds an image. Requires a `src` attribute for the image source and an `alt` attribute for accessibility. |
 
+<br> 
 
 You might be wondering how you’ll ever remember all of those tags. Not to worry, you don’t have to!
 
