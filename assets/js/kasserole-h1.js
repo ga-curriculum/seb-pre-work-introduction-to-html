@@ -1,4 +1,4 @@
-describe('Kasserole header', function () {
+describe('The body of the document', function () {
   it('should have an h1 element', function () {
     const h1 = document.querySelector('h1');
     expect(h1).not.toBe(
@@ -8,7 +8,7 @@ describe('Kasserole header', function () {
   });
 });
 
-describe('Kasserole header text', function () {
+describe('The header text', function () {
   it('should contain the text "Kasserole"', function () {
     const h1 = document.querySelector('h1');
     if (h1) {
