@@ -203,7 +203,7 @@ Here’s an example of an HTML boilerplate. It should be inserted at the beginni
 <!DOCTYPE html>
 <html>
   <head>
-    <title> </title>
+    <title></title>
   </head>
   <body>
   </body>
@@ -224,7 +224,7 @@ This lets your web browser know that the following document will be written in H
 
 <html>
   <head>
-    <title> </title>
+    <title></title>
   </head>
   <body>
   </body>
@@ -243,7 +243,7 @@ The `<html>` tag begins your HTML document. It says, “Everything between my _o
 <html>
 
   <head>
-    <title> </title>
+    <title></title>
   </head>
   <body>
   </body>
@@ -262,7 +262,7 @@ The `<head>` tag contains most of the under-the-hood stuff that helps identify y
 <html>
 
   <head>
-    <title> </title>
+    <title></title>
   </head>
 
   <body>
@@ -281,7 +281,7 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 <html>
   <head>
 
-    <title> </title>
+    <title>Google</title>
 
   </head>
   <body>
@@ -300,7 +300,7 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 <!DOCTYPE html>
 <html>
   <head>
-    <title> </title>
+    <title></title>
   </head>
 
   <body>
