@@ -289,7 +289,7 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 </html>
 ```
 
-<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:80%px;"/>
+<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:80%;"/>
 
 ---
 <h1 class='slide-header'>The body tag</h1>
