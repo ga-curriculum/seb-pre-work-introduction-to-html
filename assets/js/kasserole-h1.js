@@ -6,7 +6,9 @@ describe('Kasserole header', function () {
       'No <h1> element found. Make sure you have an <h1> tag in your HTML.'
     );
   });
+});
 
+describe('Kasserole header text', function () {
   it('should contain the text "Kasserole"', function () {
     const h1 = document.querySelector('h1');
     if (h1) {
