@@ -289,7 +289,7 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 </html>
 ```
 
-<img src="./assets/title-tag.png" alt=“chrome address bar” style="width:80%;"/>
+<img src="./assets/title-tag.png" alt="chrome address bar" style="width:80%;"/>
 
 ---
 <h1 class='slide-header'>The body tag</h1>
@@ -309,7 +309,7 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 </html>
 ```
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
+<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:75%;"/>
 
 ---
 
@@ -353,7 +353,7 @@ Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
 
-<img src="./assets/opening-and-closing-tags.png" alt=“What opening and closing tags mean” style="width:80%;"/>
+<img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/>
 
 Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
 
@@ -393,7 +393,7 @@ Let's see if we can identify a couple of HTML tags in use on the <a href="https:
 - `<a>` tags that link to the articles themselves.
 
 
-<img src="./assets/medium-site-body-tag.png" alt=“Medium Homepage” style="width:75%;"/>
+<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:75%;"/>
 
 ---
 
