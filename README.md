@@ -139,23 +139,24 @@ HTML Boilerplate
   <summary>Transcript</summary>
   
   <p class="transcript-text">
-    The early history of the World Wide Web is a bit cloudy, but it goes something like this: 
+    The early history of the World Wide Web is a bit cloudy, but it goes something like this:
 
     The year is 1990. The place is a particle physics facility in a suburb of Geneva, Switzerland.
-    
+
     A physicist, Tim Berners-Lee, is feeling frustrated. He’s tired of logging on to multiple computers just to gather the information he needs.
-    
-    There has to be a better way! 
-    
+
+    There has to be a better way!
+
     “What if I created a computer language that allowed people to format text so it could be sent over a network? Then any computer connected to that network could interpret the text and display it in a readable way. Now, that would be something!”
-    
+
     Berners-Lee developed a simple set of text-based tags that computers could process, transmit over a network, and render into readable content — and just like that, HTML, or Hypertext Markup Language, was born.
-    
-    The language was so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay. 
-    
+
+    The language was so easy to learn and use that it flourished. More people got involved; more tags were created and added. HTML was here to stay.
+
     But its capabilities were limited, and people wanted the World Wide Web to be more visually engaging and interactive. So, other languages were created and paired with HTML; languages that enabled styling and automation, animation, and interactivity.
-    
+
     The web and its core language, HTML, continue to evolve and improve. But despite these ongoing advancements, HTML remains a simple, text-based language that, with a little practice, anyone can learn.
+
   </p>
 </details>
 
@@ -165,35 +166,35 @@ HTML Boilerplate
 
 <p>In the video, you learned that HTML stands for <strong>Hypertext Markup Language</strong>. But what does <strong>hypertext</strong> mean?
 
-  Simply put, hypertext is text that connects to other information, instead of just being read in a straight line from start to finish. For example, when you see a link on a webpage that takes you to another page or website, that’s hypertext in action! It allows users to jump between different pieces of information instead of reading everything in order.
+Simply put, hypertext is text that connects to other information, instead of just being read in a straight line from start to finish. For example, when you see a link on a webpage that takes you to another page or website, that’s hypertext in action! It allows users to jump between different pieces of information instead of reading everything in order.
 
-  As we explore HTML, you’ll be diving in and getting your hands dirty. You’ll practice what you learn and develop a website in the process. Exciting stuff!
-  
-  At this point you might be wondering, “What website?”
-  
-  Your roommate Zelda dabbles in web design and has been building a website for her heavy metal band. She’s not too happy with how it’s turned out, and neither are you. It needs a good dose of personality. And “Mega Beast”? What a generic band name. What about something more unique, like... “Kasserole”?
-  
-  <img src="./assets/mega-beast.png" alt="heavy-metal-album-image" style="width:50%;">
+As we explore HTML, you’ll be diving in and getting your hands dirty. You’ll practice what you learn and develop a website in the process. Exciting stuff!
+
+At this point you might be wondering, “What website?”
+
+Your friend runs a popular local café called Café Aurora. They serve great coffee, tea, and fresh treats, and their customers love the atmosphere. However, they don’t have a website, which makes it harder for new customers to discover them. Since you’re learning web development, you decide to help by creating a basic webpage that introduces Café Aurora and provides a starting point for a full website.
+
+  <img src="./assets/tktk.png" alt="cozy-cafe-image" style="width:50%;">
 </p>
-
 
 ---
 
 <h1 class="slide-header">First Things First</h1>
 
 <p>
-Zelda loves your idea for the band name so much that she’s handing over the reins of the site. She wants you to give it a total overhaul.
+Your friend is so thrilled that you’re helping them create a website for Café Aurora, she's leaving you in full control.
 
 Are you ready for this?
 
 In the lessons that follow, we’ll walk you through the basics of HTML. You’ll learn how to create an HTML file, add text of various sizes and configurations, and insert hyperlinks and images.
 
 Let’s start with the basics — a template that makes it easy to get up and running and organize elements. This is known as the **HTML boilerplate**.
+
 </p>
 
 ---
 
-<h1 class="slide-header">The HTML Boilerplate</h1>
+<h1 class="slide-header">The <code>HTML</code> Boilerplate</h1>
 
 <p>
 Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is HTML:
@@ -205,74 +206,65 @@ Here’s an example of an HTML boilerplate. It should be inserted at the beginni
   <head>
     <title></title>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
+
 <p>
 Let’s examine each of these lines more closely to find out what they do.
 </p>
 
 ---
 
-<h1 class='slide-header'>The DOCTYPE tag</h1>
+<h1 class='slide-header'>The <code>DOCTYPE</code> tag</h1>
 
-This lets your web browser know that the following document will be written in HTML. 
+This lets your web browser know that the following document will be written in HTML.
 
 ```html
 <!DOCTYPE html>
-
 <html>
   <head>
     <title></title>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
 ---
 
-<h1 class='slide-header'>The html tag</h1>
+<h1 class='slide-header'>The <code>html</code> tag</h1>
 
-The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag  (`</html>`) will be part of the following HTML-based instructions.”
+The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag (`</html>`) will be part of the following HTML-based instructions.”
 
 ```html
 <!DOCTYPE html>
-
 <html>
-
   <head>
     <title></title>
   </head>
-  <body>
-  </body>
-
+  <body></body>
 </html>
 ```
 
 ---
 
-<h1 class='slide-header'>The head tag</h1>
+<h1 class='slide-header'>The <code>head</code> tag</h1>
 
 The `<head>` tag contains most of the under-the-hood stuff that helps identify your webpage and allows it to show up in search results. This is called **metadata**.
 
 ```html
 <!DOCTYPE html>
 <html>
-
   <head>
     <title></title>
   </head>
-
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
 ---
 
-<h1 class='slide-header'>The title tag</h1>
+<h1 class='slide-header'>The <code>title</code> tag</h1>
 
 The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kind of title text on your webpage. Instead, the `<title>` tag provides your page with a name that will appear in search engine results. It’s also the text that appears at the top of your browser window or tab. See what appears for Netflix, Google, and Medium in the image below? Those are `<title>` tags in action.
 
@@ -280,19 +272,17 @@ The `<title>` tag may sound obvious, but in fact, it _doesn’t_ display any kin
 <!DOCTYPE html>
 <html>
   <head>
-
     <title>Google</title>
-
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
 <img src="./assets/title-tag.png" alt="chrome address bar" style="width:80%;"/>
 
 ---
-<h1 class='slide-header'>The body tag</h1>
+
+<h1 class='slide-header'>The <code>body</code> tag</h1>
 
 You’ll use the `<body>` tag to hold what’s actually displayed on your webpage, including all of your text, hyperlinks, and images. See the text and images that appear on Medium’s Blog website? All of that is included in the `<body>`.
 
@@ -302,14 +292,11 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
   <head>
     <title></title>
   </head>
-
-  <body>
-  </body>
-
+  <body></body>
 </html>
 ```
 
-<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:75%;"/>
+<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:70%;"/>
 
 ---
 
@@ -317,12 +304,13 @@ You’ll use the `<body>` tag to hold what’s actually displayed on your webpag
 
 Time to put your new knowledge to work!
 
-You’ll be using our built-in online code editor to build Zelda’s website. This platform will provide a workspace and a preview of your page. For now, we’ll only need the HTML section but, in future lessons, you’ll also be able to add CSS and JavaScript code. 
+You’ll be using our built-in online code editor to build the website for Café Aurora. This platform will provide a workspace and a preview of your page. For now, we’ll only need the HTML section but, in future lessons, you’ll also be able to add CSS and JavaScript code.
 
 You won’t need to add the HTML boilerplate — our code editor automatically places your submitted code inside of the `<body>` tags. Just know that it’s there in the background and be sure to include it in any sites you build on your own!
 
-Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page. 
-1. Type the following code exactly as it appears: `<h1>Kasserole</h1>`.
+Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page.
+
+1. Type the following code exactly as it appears: `<h1>Café Aurora</h1>`.
 
 To confirm you’ve successfully completed the code challenge, click the View Test Results button. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed. As you make changes, you'll see the results "reload" in real-time, so don't be alarmed to see the preview page "refresh" every now and then.
 
@@ -342,20 +330,19 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-<!-- <img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="width:50%;"/> -->
+<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="height:200px"/>
 
 ---
 
 <h1 class='slide-header'>What Did We Just Do?</h1>
 
-Now, let's talk about the `<h1>Kasserole</h1>` heading we added in the previous exercise.
+Now, let's talk about the `<h1>Café Aurora</h1>` heading we added in the previous exercise.
 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
+<img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/> tktk
 
-<img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/>
-
-Note that the instructions to the computer consist of a bit of text surrounded by **tags**.  There’s usually an **opening tag** (e.g., `<h1>`) and a **closing tag** (e.g., `</h1>`). These tags — and what’s between them — form an **HTML element**.
+Note that the instructions to the computer consist of a bit of text surrounded by **tags**. There’s usually an **opening tag** (`<h1>`) and a **closing tag** (`</h1>`). These tags — and what’s between them — form an **HTML element**.
 
 ---
 
@@ -363,19 +350,19 @@ Note that the instructions to the computer consist of a bit of text surrounded b
 
 There are dozens of HTML elements, each with their own unique purpose. Here are just a few of the tags we use to define them:
 
-| Tag | What It Does |
-|----------|-------------|
-| `<h1>` - `<h6>` | Creates heading text, where `<h1>` is the most important (largest) and `<h6>` is the least important (smallest). |
-| `<p>` | Creates a paragraph of text. |
-| `<ul>` | Begins an unordered list (e.g., bullet points). |
-| `<ol>` | Begins an ordered list (e.g., numbered list). |
-| `<li>` | Represents a list item inside a `<ul>` or `<ol>`. |
-| `<a href="URL">` | Creates a hyperlink to another webpage or resource. Requires an `href` attribute to define the destination. |
-| `<div>` | Defines a generic container for grouping content, often used for styling or layout purposes. |
-| `<span>` | Similar to `<div>`, but used for inline elements rather than block-level sections. |
-| `<img src="URL" alt="description" />` | Embeds an image. Requires a `src` attribute for the image source and an `alt` attribute for accessibility. |
+| Tag                                   | What It Does                                                                                                     |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `<h1>` - `<h6>`                       | Creates heading text, where `<h1>` is the most important (largest) and `<h6>` is the least important (smallest). |
+| `<p>`                                 | Creates a paragraph of text.                                                                                     |
+| `<ul>`                                | Begins an unordered list (bullet points).                                                                        |
+| `<ol>`                                | Begins an ordered list (numbered list).                                                                          |
+| `<li>`                                | Represents a list item inside a `<ul>` or `<ol>`.                                                                |
+| `<a href="URL">`                      | Creates a hyperlink to another webpage or resource. Requires an `href` attribute to define the destination.      |
+| `<div>`                               | Defines a generic container for grouping content, often used for styling or layout purposes.                     |
+| `<span>`                              | Similar to `<div>`, but used for inline elements rather than block-level sections.                               |
+| `<img src="URL" alt="description" />` | Embeds an image. Requires a `src` attribute for the image source and an `alt` attribute for accessibility.       |
 
-<br> 
+<br>
 
 You might be wondering how you’ll ever remember all of those tags. Not to worry, you don’t have to!
 
@@ -388,13 +375,13 @@ And remember, even experienced web designers sometimes have to look up tags whil
 <h1 class="slide-header">HTML Tags in Action</h1>
 
 Let's see if we can identify a couple of HTML tags in use on the <a href="https://medium.com/" target="_blank" rel="noreferrer noopener">Medium website</a>.
+
 - An `<h1>` for the largest article on the page, “The Medium Blog” (note that the Medium logo at the top of the page is actually an image!).
 - An `<h2>` for lesser articles on the page, like “Making Featured stories even more visible.”
 - `<img>` tags that contain images for each article.
 - `<a>` tags that link to the articles themselves.
 
-
-<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:75%;"/>
+<img src="./assets/medium-site-body-tag.png" alt="Medium Homepage" style="width:70%;"/>
 
 ---
 
@@ -402,7 +389,7 @@ Let's see if we can identify a couple of HTML tags in use on the <a href="https:
 
 You may have noticed that some elements fit inside of other elements, like when we sandwich the `<h1>` below between the `<body>`’s _opening_ and _closing_ tags.
 
-HTML tags follow an established **hierarchy** to help structure information. Elements that sit inside of other elements are called **child elements**, while those that contain other elements are called **parent elements**.  So, `<h1>` is a child element of its parent, the `<body>` tag. 
+HTML tags follow an established **hierarchy** to help structure information. Elements that sit inside of other elements are called **child elements**, while those that contain other elements are called **parent elements**. So, `<h1>` is a child element of its parent, the `<body>` tag.
 
 We use **indentation** in our code to visualize the hierarchy of HTML elements:
 
@@ -451,13 +438,14 @@ Take a look at the HTML below. Which of the following statements about its hiera
 
 <h1 class="slide-header">Conclusion</h1>
 
-Congrats, you’re now versed in the basics of HTML! 
+Congrats, you’re now versed in the basics of HTML!
 
-In this lesson, you learned:  
-* That HTML stands for “Hypertext Markup Language.”
-* How to set up HTML documents using the HTML boilerplate.
-* How to use the `<title>` tag to add a title for a webpage, which will display in browser tabs and search results.
-* How to use HTML tags to define the elements that appear on a page (e.g., an `<h1>` heading).
-* How HTML uses parent/child language to explain the hierarchy of elements.
+In this lesson, you learned:
+
+- That HTML stands for “Hypertext Markup Language.”
+- How to set up HTML documents using the HTML boilerplate.
+- How to use the `<title>` tag to add a title for a webpage, which will display in browser tabs and search results.
+- How to use HTML tags to define the elements that appear on a page (an `<h1>` heading).
+- How HTML uses parent/child language to explain the hierarchy of elements.
 
 </textarea>
