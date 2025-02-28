@@ -5,7 +5,7 @@
 <span id=time-estimate class="color-grey-500">20 mins</span>
 
 <p id="lesson-description">
-  To the uninitiated, HTML can look like a jumble of brackets, words, and numbers. But over the course of this unit, its meaning will become clear. Let’s start at the beginning: why it exists and what it really does.
+To the uninitiated, HTML can look like a jumble of brackets, words, and numbers. But over the course of this unit, its meaning will become clear. Let’s start at the beginning: why it exists and what it really does.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
