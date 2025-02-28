@@ -16,7 +16,7 @@ describe('The header text', function () {
         .trim()
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');
-      expect(normalizedText).toBe(
+      expect(normalizedText).toEqual(
         'Cafe Aurora',
         `Expected <h1> to contain "Café Aurora" or "Cafe Aurora", but found "${h1.textContent.trim()}". Make sure your heading is spelled correctly and does not have extra spaces.`
       );
