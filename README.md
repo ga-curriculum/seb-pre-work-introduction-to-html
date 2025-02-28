@@ -5,10 +5,12 @@
 <span id=time-estimate class="color-grey-500">20 mins</span>
 
 <p id="lesson-description">
-  To the uninitiated, HTML can look like a jumble of brackets, words, and numbers. But over the course of this unit, its meaning will become clear. Let’s start at the beginning: why it exists and what it really does.
+At first glance, HTML might seem like a mix of symbols and words that don’t make much sense. But don’t worry! By the end of this unit, you’ll see how it all comes together to create web pages. Let’s start with the basics: why HTML exists and what it’s used for.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
+
+<br>
 
 The Origins of HTML
 
@@ -22,6 +24,8 @@ HTML Boilerplate
 
 <hr>
 
+<br>
+
 <a href="./assets/introduction_to_html_study_guide.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
@@ -31,17 +35,16 @@ HTML Boilerplate
 <p>By the end of this lesson, you'll be able to:</p>
 
 <ul>
-  <li>Explain how HTML is used to develop websites.</li>
-  <li>Set up a boilerplate HTML file.</li>
-  <li>Use HTML tags to structure a website.</li>
+  <li>Learn how HTML is used to build websites.</li>
+  <li>Set up a boilerplate HTML file as a starting point.</li>
+  <li>Use HTML tags to structure content on a webpage.</li>
 </ul>
 
 ---
 
 <h1 class="slide-header">A Brief History of the Web</h1>
-<!--
-  WISTIA EXAMPLE. REPLACE 11dit621rx with the id
--->
+
+<!--WISTIA EXAMPLE. REPLACE 11dit621rx with the id-->
 <div class="wistia_embed wistia_async_11dit621rx wistia_embed_initialized" id="wistia-11dit621rx-1"
     style="width: 100%; height: 90%;">
     <div id="wistia_chrome_23" class="w-chrome notranslate" tabindex="-1">
@@ -133,8 +136,7 @@ HTML Boilerplate
         </div>
     </div>
 </div>
-<!-- YOUTUBE -->
-<!-- VIMEO -->
+
 <details>
   <summary>Transcript</summary>
   
@@ -164,7 +166,7 @@ HTML Boilerplate
 
 <h1 class="slide-header">Your First Job</h1>
 
-<p>In the video, you learned that HTML stands for <strong>Hypertext Markup Language</strong>. But what does <strong>hypertext</strong> mean?
+In the video, you learned that HTML stands for **Hypertext Markup Language**. But what does **hypertext** mean?
 
 Simply put, hypertext is text that connects to other information, instead of just being read in a straight line from start to finish. For example, when you see a link on a webpage that takes you to another page or website, that’s hypertext in action! It allows users to jump between different pieces of information instead of reading everything in order.
 
@@ -174,14 +176,18 @@ At this point you might be wondering, “What website?”
 
 Your friend runs a popular local café called Café Aurora. They serve great coffee, tea, and fresh treats, and their customers love the atmosphere. However, they don’t have a website, which makes it harder for new customers to discover them. Since you’re learning web development, you decide to help by creating a basic webpage that introduces Café Aurora and provides a starting point for a full website.
 
-  <img src="./assets/tktk.png" alt="cozy-cafe-image" style="width:50%;">
-</p>
+<img src="./assets/ceyda-ciftci-cafe-unsplash.jpg" alt="cafe-image" style="width:50%;">
+
+<small>
+  Photo by <a href="https://unsplash.com/@ceydaciftci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ceyda Çiftci</a> on 
+  <a href="https://unsplash.com/photos/man-in-black-t-shirt-standing-in-front-of-counter--ylyzFOEBS0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</small>
 
 ---
 
 <h1 class="slide-header">First Things First</h1>
 
-<p>
+
 Your friend is so thrilled that you’re helping them create a website for Café Aurora, she's leaving you in full control.
 
 Are you ready for this?
@@ -190,15 +196,12 @@ In the lessons that follow, we’ll walk you through the basics of HTML. You’l
 
 Let’s start with the basics — a template that makes it easy to get up and running and organize elements. This is known as the **HTML boilerplate**.
 
-</p>
 
 ---
 
 <h1 class="slide-header">The <code>HTML</code> Boilerplate</h1>
 
-<p>
-Here’s an example of an HTML boilerplate. It should be inserted at the beginning of any HTML document to let browsers know that what follows is HTML:
-</p>
+Here’s an example of an **HTML boilerplate**. It should be inserted at the beginning of any HTML document to let browsers know that what follows is HTML:
 
 ```html
 <!DOCTYPE html>
@@ -210,15 +213,15 @@ Here’s an example of an HTML boilerplate. It should be inserted at the beginni
 </html>
 ```
 
-<p>
 Let’s examine each of these lines more closely to find out what they do.
-</p>
 
 ---
 
 <h1 class='slide-header'>The <code>DOCTYPE</code> tag</h1>
 
-This lets your web browser know that the following document will be written in HTML.
+
+This lets your web browser know that the following document will be written in **HTML**.
+
 
 ```html
 <!DOCTYPE html>
@@ -234,7 +237,7 @@ This lets your web browser know that the following document will be written in H
 
 <h1 class='slide-header'>The <code>html</code> tag</h1>
 
-The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag (`<html>`) and my _closing_ tag (`</html>`) will be part of the following HTML-based instructions.”
+The `<html>` tag begins your HTML document. It says, “Everything between my _opening_ tag `<html>` and my _closing_ tag `</html>` will be part of the following HTML-based instructions.”
 
 ```html
 <!DOCTYPE html>
@@ -316,9 +319,9 @@ To confirm you’ve successfully completed the code challenge, click the View Te
 
 Good luck!
 
-<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin" height="400" style="width: 100%;" scrolling="no" title="Kasserole H1" src="https://codepen.io/GAmarketing/embed/bGJBrWr?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/bGJBrWr">
-  Kasserole H1</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+<iframe   sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin" height="500" style="width: 100%;" scrolling="no" title="Intro to HTML H1" src="https://codepen.io/GAmarketing/embed/WbNRjEJ?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/WbNRjEJ">
+  Intro to HTML H1</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
@@ -330,7 +333,7 @@ We hope you liked the code editor in the previous exercise, because you'll be us
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="height:200px"/>
+<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="height:300px"/>
 
 ---
 
@@ -340,13 +343,13 @@ Now, let's talk about the `<h1>Café Aurora</h1>` heading we added in the previo
 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
-<img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/> tktk
+<!-- <img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/> tktk -->
 
-Note that the instructions to the computer consist of a bit of text surrounded by **tags**. There’s usually an **opening tag** (`<h1>`) and a **closing tag** (`</h1>`). These tags — and what’s between them — form an **HTML element**.
+Note that the instructions to the computer consist of a bit of text surrounded by **tags**. There’s usually an **opening tag** `<h1>` and a **closing tag** `</h1>`. These tags — and what’s between them — form an **HTML element**.
 
 ---
 
-<h1 class="slide-header">HTML Tags Galore</h1>
+<h1 class="slide-header">HTML Tags</h1>
 
 There are dozens of HTML elements, each with their own unique purpose. Here are just a few of the tags we use to define them:
 
