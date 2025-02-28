@@ -8,9 +8,9 @@
 At first glance, HTML might seem like a mix of symbols and words that don’t make much sense. But don’t worry! By the end of this unit, you’ll see how it all comes together to create web pages. Let’s start with the basics: why HTML exists and what it’s used for.
 </p>
 
-<h5 id="topics-header" class="color-grey-500">Topics</h5>
-
 <br>
+
+<h5 id="topics-header" class="color-grey-500">Topics</h5>
 
 The Origins of HTML
 
@@ -174,9 +174,9 @@ As we explore HTML, you’ll be diving in and getting your hands dirty. You’ll
 
 At this point you might be wondering, “What website?”
 
-Your friend runs a popular local café called Café Aurora. They serve great coffee, tea, and fresh treats, and their customers love the atmosphere. However, they don’t have a website, which makes it harder for new customers to discover them. Since you’re learning web development, you decide to help by creating a basic webpage that introduces Café Aurora and provides a starting point for a full website.
+Your friend runs a popular local cafe called Café Aurora. They serve great coffee, tea, and fresh treats, and their customers love the atmosphere. However, they don’t have a website, which makes it harder for new customers to discover them. Since you’re learning web development, you decide to help by creating a basic webpage that introduces Café Aurora and provides a starting point for a full website.
 
-<img src="./assets/ceyda-ciftci-cafe-unsplash.jpg" alt="cafe-image" style="width:50%;">
+<img src="./assets/ceyda-ciftci-cafe-unsplash.jpg" alt="cafe-image" style="width:30%;">
 
 <small>
   Photo by <a href="https://unsplash.com/@ceydaciftci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ceyda Çiftci</a> on 
@@ -188,7 +188,7 @@ Your friend runs a popular local café called Café Aurora. They serve great cof
 <h1 class="slide-header">First Things First</h1>
 
 
-Your friend is so thrilled that you’re helping them create a website for Café Aurora, she's leaving you in full control.
+Your friend is so thrilled that you’re helping them create a website for Café Aurora, they're leaving you in full control.
 
 Are you ready for this?
 
@@ -313,7 +313,7 @@ You won’t need to add the HTML boilerplate — our code editor automatically p
 
 Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page.
 
-1. Type the following code exactly as it appears: `<h1>Café Aurora</h1>`.
+**1. Type the following code exactly as it appears: `<h1>Café Aurora</h1>`.**
 
 To confirm you’ve successfully completed the code challenge, click the View Test Results button. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed. As you make changes, you'll see the results "reload" in real-time, so don't be alarmed to see the preview page "refresh" every now and then.
 
@@ -329,11 +329,11 @@ Good luck!
 
 <h1 class="slide-header">A Quick Note About Our Code Editor </h1>
 
-We hope you liked the code editor in the previous exercise, because you'll be using the same code editor in future code exercises. It allows us to get straight to coding without tedious set-up work. We can edit HTML, CSS, and JavaScript code and see the results of our changes in real time.
+We hope you liked the code editor in the previous exercise, because you'll be using the same code editor in future code exercises. It allows us to get straight to coding without tedious set-up work. We can edit **HTML**, **CSS**, and **JavaScript** code and see the results of our changes in real time.
 
 Eventually, you will graduate to a text editor or Integrated Development Environment (IDE) on your own computer. For now, however, our code editor is the quickest way to get right down to the business of programming. Think of our in-browser code editor like the first instrument you learn to play music on. It lets you learn the basics, and if you discover that you’re having a blast and want to upgrade, you’ll know when the time is right.
 
-<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="height:300px"/>
+<img src="./assets/2019_Screens_Back_End.png" alt=“Desk Items” style="height:400px"/>
 
 ---
 
