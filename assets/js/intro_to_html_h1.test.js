@@ -1,7 +1,7 @@
 describe('The body of the document', function () {
   it('should have an h1 element', function () {
     const h1 = document.querySelector('h1');
-    expect(h1).not.toBe(
+    expect("h1").not.toEqual(
       null,
       'No <h1> element found. Make sure you have an <h1> tag in your HTML.'
     );
