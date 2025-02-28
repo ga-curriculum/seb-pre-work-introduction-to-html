@@ -313,7 +313,7 @@ You won’t need to add the HTML boilerplate — our code editor automatically p
 
 Let’s get started by adding our first bit of content to the page: a heading. This will describe what users are seeing on the page.
 
-**1. Type the following code exactly as it appears: `<h1>Café Aurora</h1>`.**
+**1. Type the following code exactly as it appears:** `<h1>Café Aurora</h1>`.
 
 To confirm you’ve successfully completed the code challenge, click the View Test Results button. This will trigger some automated tests, which will either confirm that your submission is correct, or point you to some problems that still need to be fixed. As you make changes, you'll see the results "reload" in real-time, so don't be alarmed to see the preview page "refresh" every now and then.
 
@@ -343,9 +343,9 @@ Now, let's talk about the `<h1>Café Aurora</h1>` heading we added in the previo
 
 What did we just add in those `<h1>` tags? Let’s walk through how you communicated with the computer:
 
-<!-- <img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/> tktk -->
+<img src="./assets/opening-and-closing-tags.png" alt="What opening and closing tags mean" style="width:80%;"/>
 
-Note that the instructions to the computer consist of a bit of text surrounded by **tags**. There’s usually an **opening tag** `<h1>` and a **closing tag** `</h1>`. These tags — and what’s between them — form an **HTML element**.
+Note that the instructions to the computer consist of a bit of text surrounded by **tags**. There’s usually an **opening tag** `<h1>` and a **closing tag** `</h1>`. These tags, and what’s between them, form an **HTML element**.
 
 ---
 
