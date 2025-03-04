@@ -8,8 +8,6 @@
 At first glance, HTML might seem like a mix of symbols and words that don’t make much sense. But don’t worry! By the end of this unit, you’ll see how it all comes together to create web pages. Let’s start with the basics: why HTML exists and what it’s used for.
 </p>
 
-<br>
-
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
 The Origins of HTML
