@@ -323,6 +323,7 @@ Good luck!
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 ---
 
 <h1 class="slide-header">A Quick Note About Our Code Editor </h1>
